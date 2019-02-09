@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="637.0" prefWidth="614.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <TextField fx:id="TextFL" layoutX="233.0" layoutY="220.0" />
+      <TextField fx:id="TextFP" layoutX="233.0" layoutY="294.0" />
+      <Button fx:id="BtnCheck" layoutX="281.0" layoutY="351.0" mnemonicParsing="false" onAction="#CheckForTroubles" text="Check" />
+      <Text layoutX="291.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER" />
+      <Text layoutX="281.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER" />
+      <Text fx:id="TextT" layoutX="26.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="559.0" />
+   </children>
+</AnchorPane>
